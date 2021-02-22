@@ -14,9 +14,9 @@ Homepage
   <div class="hero-text">
   <h1> Today </h1>
     <p>The problems today</p>
-<button>Start</button>
- </div>
+<button class="button" style="vertical-align:middle"><span>Start </span></button>
 </div>
+ </div>
 <style>
 
 .hero-image {
@@ -34,9 +34,44 @@ background-position: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: FloralWhite;
 }
 
+.button {
+ font-size: 15px;
+ border-radius: 4px;
+ border:1px solid #212F3D;
+ background-color: floralwhite;
+cursor:pointer;
+transition-duration:0.4s;
+color: floral white
+}
+.button:hover {
+background-color: #212F3D;
+color: floralwhite
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.4s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.4s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
  .lobster {
     color: FloralWhite;
   }
@@ -48,6 +83,22 @@ p {
 font-family: Arial
 }
 
+.container {
+ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("1st image.jpg");
+ height: 110%;
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.centered {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: floralwhite;
+} 
 
 </style>
 <br>
@@ -60,4 +111,13 @@ Coronovirus Disease is an infectious disease which is now pandemic and the most 
 <p class="lobster">
 The severity of COVID-19 symptoms can range from very mild to severe. Some people may have only a few symptoms, and some people may have no symptoms at all. Some people may experience worsened symptoms, such as worsened shortness of breath and pneumonia, about a week after symptoms start.
 </p>
+<br>
+<div class="container">
+ <div class="centered">
+ <h1 class="lobster">Hope</h1>
+<p class="lobster">The future we seek</p>
+<button class="button" style="vertical-align:middle"><span>Start </span></button>
+</div>
+</div>
+
 </HTML>
