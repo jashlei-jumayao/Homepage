@@ -15,7 +15,7 @@ Homepage
   <div class="hero-text">
   <h1> Today </h1>
     <p>The problems today</p>
-<a href="#""><button class="button" style="vertical-align:middle"><span>Start </span></button></a>
+<a href="#"><button class="button" style="vertical-align:middle"><span>Start </span></button></a>
 </div>
  </div>
 <style>
