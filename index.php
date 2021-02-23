@@ -1,3 +1,4 @@
+<DOCTYPE! HTML>
 <HTML>
 <Title>
 Homepage
@@ -14,7 +15,7 @@ Homepage
   <div class="hero-text">
   <h1> Today </h1>
     <p>The problems today</p>
-<button class="button" style="vertical-align:middle"><span>Start </span></button>
+<a href="#""><button class="button" style="vertical-align:middle"><span>Start </span></button></a>
 </div>
  </div>
 <style>
@@ -44,11 +45,11 @@ background-position: center;
  background-color: floralwhite;
 cursor:pointer;
 transition-duration:0.4s;
-color: floral white
+color: #212F3D
 }
 .button:hover {
 background-color: #212F3D;
-color: floralwhite
+color: FloralWhite
 }
 .button span {
   cursor: pointer;
@@ -97,7 +98,7 @@ background-position: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: floralwhite;
+  color: FloralWhite;
 } 
 
 </style>
@@ -116,8 +117,15 @@ The severity of COVID-19 symptoms can range from very mild to severe. Some peopl
  <div class="centered">
  <h1 class="lobster">Hope</h1>
 <p class="lobster">The future we seek</p>
-<button class="button" style="vertical-align:middle"><span>Start </span></button>
+<a href="#"><button class="button" style="vertical-align:middle"><span>Start </span></button></a>
 </div>
 </div>
+<h1 class="lobster">
+The Future For Us
+</h1>
+
+<p class="lobster">
+Covid-19 has been an issue in the society for a year, but there is still hope. Through the help from doctors, a vaccine has been invented to solve this. With this, people who are not yet carriers can rest easy. Not only is it not available for everyone yet, it's still being tested. although, it cant be sent to everyone immediately, eventually, everyone will be free from the virus’ clutches.
+</p>
 
 </HTML>
