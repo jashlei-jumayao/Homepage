@@ -1,16 +1,13 @@
-<DOCTYPE! HTML>
+<!DOCTYPE HTML>
 <HTML>
 <Title>
 Homepage
 </title>
 
-<!--
-<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
--->
 
 <body bgcolor="#212F3D">
 <center>
-<h1 class="lobster"> Home Page</h1>
+<h1 class="homepage"> Home Page</h1>
 <div class="hero-image">
   <div class="hero-text">
   <h1> Today </h1>
@@ -20,8 +17,9 @@ Homepage
  </div>
 <style>
 
+
 .hero-image {
- background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("2nd image.jpg");
+ background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("5th image.jpg");
  height: 110%;
 background-position: center;
   background-repeat: no-repeat;
@@ -36,6 +34,7 @@ background-position: center;
   left: 50%;
   transform: translate(-50%, -50%);
   color: FloralWhite;
+  font-size: 20px;
 }
 
 .button {
@@ -73,19 +72,36 @@ color: FloralWhite
   opacity: 1;
   right: 0;
 }
- .lobster {
+
+@font-face
+{
+font-family: 'Lobster';
+src: url(lobster.regular.ttf);
+font-style: normal;
+font-weight: 100;
+}
+
+.lobster
+{
+font-weight: 100;
     color: FloralWhite;
   }
 
   h1 {
-    font-family: Lobster, Monospace;
+    font-family: Monospace;
   }
 p {
 font-family: Arial
 }
 
+.homepage 
+{
+  font-family: 'Lobster';
+  font-weight: 100;
+    color: FloralWhite;
+}
 .container {
- background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("1st image.jpg");
+ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("4th image.jpg");
  height: 110%;
 background-position: center;
   background-repeat: no-repeat;
@@ -99,6 +115,7 @@ background-position: center;
   left: 50%;
   transform: translate(-50%, -50%);
   color: FloralWhite;
+  font-size: 20px
 } 
 
 </style>
