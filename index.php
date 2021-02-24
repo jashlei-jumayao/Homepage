@@ -12,7 +12,7 @@ Homepage
   <div class="hero-text">
   <h1> Today </h1>
     <p>The problems today</p>
-<a href="#"><button class="button" style="vertical-align:middle"><span>Start </span></button></a>
+<a href="https://main-webpage-today.herokuapp.com"><button class="button" style="vertical-align:middle"><span>Start </span></button></a>
 </div>
  </div>
 <style>
@@ -134,7 +134,7 @@ The severity of COVID-19 symptoms can range from very mild to severe. Some peopl
  <div class="centered">
  <h1 class="lobster">Hope</h1>
 <p class="lobster">The future we seek</p>
-<a href="#"><button class="button" style="vertical-align:middle"><span>Start </span></button></a>
+<a href="https://main-webpage-tomorrow.herokuapp.com/"><button class="button" style="vertical-align:middle"><span>Start </span></button></a>
 </div>
 </div>
 <h1 class="lobster">
