@@ -4,21 +4,21 @@ Homepage
 </title>
 
 
-<body bgcolor="#212F3D">
+<body bgcolor="#262626">
 <center>
 <h1 class="homepage"> Home Page</h1>
 <div class="hero-image">
   <div class="hero-text">
   <h1> Today </h1>
     <p>The problems today</p>
-<a href="https://main-webpage-today.herokuapp.com"><button class="button" style="vertical-align:middle"><span>Start </span></button></a>
+<a href="#"><button class="button" style="vertical-align:middle"><span>Start </span></button></a>
 </div>
  </div>
 <style>
 
 
 .hero-image {
- background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("5th image.jpg");
+ background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("COVID IMAGE 2.jpg");
  height: 110%;
 background-position: center;
   background-repeat: no-repeat;
@@ -39,14 +39,14 @@ background-position: center;
 .button {
  font-size: 15px;
  border-radius: 4px;
- border:1px solid #212F3D;
+ border:1px solid black;
  background-color: floralwhite;
 cursor:pointer;
 transition-duration:0.4s;
-color: #212F3D
+color: black;
 }
 .button:hover {
-background-color: #212F3D;
+background-color: black;
 color: FloralWhite
 }
 .button span {
@@ -100,7 +100,7 @@ font-family: Arial
     color: FloralWhite;
 }
 .container {
- background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("4th image.jpg");
+ background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("covid vaccine 2.jpg");
  height: 110%;
 background-position: center;
   background-repeat: no-repeat;
@@ -130,10 +130,10 @@ The severity of COVID-19 symptoms can range from very mild to severe. Some peopl
 </p>
 <br>
 <div class="container">
- <div class="centered">
+<div class="centered">
  <h1 class="lobster">Hope</h1>
 <p class="lobster">The future we seek</p>
-<a href="https://main-webpage-tomorrow.herokuapp.com/"><button class="button" style="vertical-align:middle"><span>Start </span></button></a>
+<a href="#"><button class="button" style="vertical-align:middle"><span>Start </span></button></a>
 </div>
 </div>
 <h1 class="lobster">
